@@ -6,7 +6,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		SoController soController = new SoController();
-		System.out.println(soController.os());
+		System.out.println(soController.getOs());
 		
 		FrameExecutar tela = new FrameExecutar();
 		tela.setDefaultCloseOperation(tela.EXIT_ON_CLOSE);
